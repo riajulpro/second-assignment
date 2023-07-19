@@ -23,6 +23,16 @@
     gap: auto;
     padding: 6px;
   }
+  .gamer-content {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-align: center;
+  }
+  .title,
+  .subtitle {
+    font-size: 14px;
+  }
   .banner,
   .we-are-gamer {
     flex-direction: column-reverse;
