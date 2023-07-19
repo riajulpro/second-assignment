@@ -1,0 +1,43 @@
+/* for mobile */
+@media screen and (max-width: 576px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+  }
+  p {
+    width: auto;
+    padding: 5px;
+  }
+  nav,
+  .more-links,
+  .online-games,
+  .game-box-container,
+  .play-online,
+  .career,
+  .play-instant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: auto;
+    padding: 6px;
+  }
+  .banner,
+  .we-are-gamer {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    gap: 2px;
+  }
+  .banner {
+    background-position: bottom;
+  }
+  .follow {
+    align-items: center;
+  }
+  .follow img {
+    width: 48px;
+  }
+}
