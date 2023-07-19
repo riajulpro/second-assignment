@@ -42,6 +42,13 @@
     align-items: center;
     justify-content: center;
   }
+  .play-content {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
   .catalog {
     gap: 10px;
     align-items: start;
